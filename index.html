@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cabecalho.css">
+    <link rel="stylesheet" href="principal.css">
+</head>
+
+<body>
+    <header class="cabecalho container">
+        <div>
+            <img src="./imagem/estrela.svg" alt="estrela">
+            <h3>Paloma Silva</h3>
+        </div>
+        <nav>
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#sobremim">Sobre mim</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a href="#formacao">Formações e Cursos</a></li>
+            </ul>
+        </nav>
+        <span class="menu__list__item__contato"><a href="#contato">palomanascimento054@gmail.com</a></span>
+    </header>
+    <main class="principal container">
+        <section class="title">
+            <div class="title__div">
+                <img class="perfil" src="./imagem/1676438590136.jpeg" alt="imagem da paloma">
+                <div class="title__container" id="#sobremim">
+                    <h2 class="title__bio"> Paloma Silva</h2>
+                    <h3 class="title__subsection">Estou participando no projeto Oracle ONE na Alura para ser futura
+                        programadora em Front-End.</h3>
+                    <ul class="title__network">
+                        <!-- Ponha os links de suas redes sociais favoritas -->
+                        <li class="title__network__item"><a href="https://github.com/palomasilva96">Github <img
+                                    src="./imagem/arrow_back_black_24dp 1.svg"> </a></li>
+                        <li class="title__network__item"><a
+                                href="https://www.linkedin.com/in/paloma-silva-nascimento/">Linkedin <img
+                                    src="./imagem/arrow_back_black_24dp 1.svg"></a></li>
+                        <li class="title__network__item"><a href="https://www.instagram.com/panascimento_">Instagram
+                                <img src="./imagem/arrow_back_black_24dp 1.svg""></a></li>
+                        <li class=" title__network__item"><a href="./imagem/cv Paloma.docx.pdf">Curriculo <img
+                                        src="./imagem/arrow_back_black_24dp 1.svg"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="descricao container">
+            <div class="descricao__div">
+                <h2 class="descricao__sobremim">Sobre mim</h2>
+                <p class="descricao__texto"> Moro na cidade de Taubaté e tenho 27 anos, sou estudante de análise e
+                    desenvolvimento de sistemas e participando de cursos adicionais para desenvolver habilidades na área
+                    da programação.</p>
+
+                <p class="descricao__texto"> Estou comprometida em aprender as melhores práticas de codificação e as
+                    tecnologias mais recentes. Minha dedicação aos estudos vai impulsionar a trilhar minha carreira
+                    como futura programadora em front end.</p>
+                </p>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="skills__logos">
+                <div class="skills__logo">
+                    <ion-icon name="logo-html5"></ion-icon>
+                    <h3 class="logos">Html5</h3>
+                </div>
+                <div class="skills__logo">
+                    <ion-icon name="logo-css3"></ion-icon>
+                    <h3 class="logos">CSS</h3>
+                </div>
+                <div class="skills__logo">
+                    <ion-icon name="logo-javascript"></ion-icon>
+                    <h3 class="logos">Javascript</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="hobbies" id="hobbies"> 
+            <div class="skills">
+                <h2>Hobbies</h2>
+                <div class="skills__logos">
+                    <div class="skills__logo">
+                        <ion-icon name="musical-notes"></ion-icon>
+                        <h3 class="logos">Ouvir música</h3>
+                    </div>
+                    <div class="skills__logo">
+                        <ion-icon name="tv"></ion-icon>
+                        <h3 class="logos">Assistir séries</h3>
+                    </div>
+                    <div class="skills__logo">
+                        <ion-icon name="paw"></ion-icon>
+                        <h3 class="logos">Pets</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="formacao" id="formacao">
+            <h2>Formação Acadêmica</h2>
+            <p> Faculdade Anhembi Morumbi</p>
+            <p> Anáise Desenvolvimento de Sistemas 2023 - 2025</p>
+        </section>
+
+        <section class="contatos" id="contato">
+            <h2 class="contato">Contato</h2>
+            <div class="formulario">
+                <form>
+                    <fieldset>
+                        <div class="nome">
+                            <label>Nome</label>
+                            <input type="text" name="nome" required>
+                        </div>
+                    </fieldset>
+
+                    <div class="email">
+                        <label>E-mail</label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div class="assunto">
+                        <textarea>Assunto</textarea>
+                    </div>
+
+                    <div class="mensagem">
+                        <textarea>Mensagem</textarea>
+                    </div>
+
+                    <button type="submit">Enviar Mensagem</button>
+            </div>
+            </form>
+        </section>
+    </main>
+    <div class="rodape">
+        <footer>Desenvolvido por Paloma 2023</footer>
+    </div>
+</body>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</html>
